@@ -127,4 +127,5 @@ export class HomeComponent {
       laundry: true,
     },
   ];
+
 }
