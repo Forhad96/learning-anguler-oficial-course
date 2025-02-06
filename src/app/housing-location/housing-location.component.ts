@@ -10,7 +10,7 @@ import { RouterModule } from "@angular/router";
   template: `
     <section class="listing">
       <img
-        [src]="housingLocation?.photo"
+        [src]="housingLocation.photo"
         alt="Exterior photo of {{ housingLocation.name }}"
         class="listing-photo"
       />
